@@ -1,33 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Odin Landing Page</title>
-    </head>
-    <body>
-        <h1 class="header">Header Logo</h1>
-        <a href="recipes/arancini.html">header link one</a>
-        <a href="recipes/lasagna.html">header link two</a>
-        <a href="recipes/tiramisu.html">header link three</a>
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-        <button type="button">Sign Up</button> 
-        <img>
-        <h2>Some random information.</h2>
-        <img>
-        <p>this is some subtext under an illustration or image</p>
-        <img>
-        <p>this is some subtext under an illustration or image</p>
-        <img>
-        <p>this is some subtext under an illustration or image</p>
-        <img>
-        <p>this is some subtext under an illustration or image</p>
-        <h3>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h3>
-        <p>-Thor, God of Thunder</p>
-        <h4>Call to action! It's time!</h4>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button type="button">Sign Up</button> 
-        <p>Copyright © The Odin Project 2024</p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <nav class="nav">
+        <div class="header-logo">
+            Header Logo
+        </div>
+        <ul class="header-links">
+            <li>header link one</li>
+            <li>header link two</li>
+            <li>header link three</li>
+        </ul>
+    </nav>
+    <div class="header-content">
+        <div class="header-information">
+            <p class="header-text">This website is awesome</p>
+            <p class="header-subtext">this website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button class="sign-up-button">Sign Up</button>
+        </div>
+        <img class="placeholder-image" src="images/Placeholder-Image.png" alt="This is a placeholder image">
+    </div>
+</header>
+<section class="Information-section">
+    <h1 class="Information-section-heading">Some random information.</h1>
+    <div class="cards">
+        <figure class="card">
+            <img class="card" src="images/Placeholder-Image.png" alt="This is a placeholder image">
+            <figcaption>is some subtext under an illustration or image</figcaption>
+        </figure>
+        <figure class="card">
+            <img class="card" src="images/Placeholder-Image.png" alt="This is a placeholder image">
+            <figcaption>is some subtext under an illustration or image</figcaption>
+        </figure>
+        <figure class="card">
+            <img class="card" src="images/Placeholder-Image.png" alt="This is a placeholder image">
+            <figcaption>is some subtext under an illustration or image</figcaption>
+        </figure>
+        <figure class="card">
+            <img class="card" src="images/Placeholder-Image.png" alt="This is a placeholder image">
+            <figcaption>is some subtext under an illustration or image</figcaption>
+        </figure>
+    </div>
+</section>
+
+<section class="Quote-Section">
+    <div class="Quote-content">
+        <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</p>
+        <h2 class="quote-author">-Thor, God of Thunder</h2>
+    </div>
+</section>
+<section class="action-section">
+    <div class="action-content">
+        <div class="action-text">
+            <h2 class="action-heading">Call to action! It's time!</h2>
+            <p class="action-text">Sign up for our product by clicking that buttong right over there!</p>
+    </div>
+        <button class="action-signup-button">Sign up</button>
+    </div>
+</section>
+<footer>
+    <div class="footer">
+        Copyright &copy; The Odin Project 2021
+    </div>
+</footer>
+</body>
 </html>
