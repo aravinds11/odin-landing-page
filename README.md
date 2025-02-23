@@ -1,5 +1,4 @@
-# odin-landing-page
-
+# Odin Landing Page
 This is a simple landing page project built as part of [The Odin Project](https://www.theodinproject.com/). The goal of this project is to practice HTML and CSS skills by creating a basic landing page from scratch, following the provided design.
 
 ## Overview
